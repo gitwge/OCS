@@ -1,0 +1,12 @@
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\bin\Release\PCC.exe.config
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\bin\Release\PCC.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\bin\Release\PCC.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\bin\Release\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\bin\Release\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.Form1.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.PCC.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.Properties.Resources.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.csproj.GenerateResource.Cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\PCC\obj\Release\PCC.pdb

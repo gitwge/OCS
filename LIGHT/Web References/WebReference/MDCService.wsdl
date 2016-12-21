@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ImportGEHZShiftData">
+        <s:complexType />
+      </s:element>
+      <s:element name="ImportGEHZShiftDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ImportGEHZShiftDataResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRunDuring">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mtid" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRunDuringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetRunDuringResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRunEfficiency">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRunEfficiencyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRunEfficiencyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineUseRate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineUseRateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineUseRateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineUseRateYCGX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineUseRateYCGXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineUseRateYCGXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineStatusGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineStatusGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineStatusGroupResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineBootStrapRate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineBootStrapRateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineBootStrapRateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStartingUpRate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strMachineId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStartingUpRateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStartingUpRateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="startTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="endTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="matolId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMachineDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMachineDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCurrentInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllCurrentInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllCurrentInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentDetailInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="machineName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentDetailInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrentDetailInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllMachine">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllMachineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllMachineResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="double" type="s:double" />
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ImportGEHZShiftDataSoapIn">
+    <wsdl:part name="parameters" element="tns:ImportGEHZShiftData" />
+  </wsdl:message>
+  <wsdl:message name="ImportGEHZShiftDataSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportGEHZShiftDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRunDuring" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRunDuringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencySoapIn">
+    <wsdl:part name="parameters" element="tns:GetRunEfficiency" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencySoapOut">
+    <wsdl:part name="parameters" element="tns:GetRunEfficiencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineUseRate" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineUseRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineUseRateYCGX" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineUseRateYCGXResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineStatusGroup" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineStatusGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineBootStrapRate" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineBootStrapRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStartingUpRate" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStartingUpRateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMachineDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMachineDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCurrentInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllCurrentInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCurrentInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllCurrentInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentDetailInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentDetailInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllMachineSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllMachine" />
+  </wsdl:message>
+  <wsdl:message name="GetAllMachineSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllMachineResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImportGEHZShiftDataHttpGetIn" />
+  <wsdl:message name="ImportGEHZShiftDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringHttpGetIn">
+    <wsdl:part name="mtid" type="s:string" />
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringHttpGetOut">
+    <wsdl:part name="Body" element="tns:double" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencyHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencyHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailHttpGetIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="matolId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCurrentInfoHttpGetIn" />
+  <wsdl:message name="GetAllCurrentInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoHttpGetIn">
+    <wsdl:part name="machineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetAllMachineHttpGetIn" />
+  <wsdl:message name="GetAllMachineHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="ImportGEHZShiftDataHttpPostIn" />
+  <wsdl:message name="ImportGEHZShiftDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringHttpPostIn">
+    <wsdl:part name="mtid" type="s:string" />
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRunDuringHttpPostOut">
+    <wsdl:part name="Body" element="tns:double" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencyHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRunEfficiencyHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineUseRateYCGXHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineStatusGroupHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineBootStrapRateHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="strMachineId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetStartingUpRateHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailHttpPostIn">
+    <wsdl:part name="startTime" type="s:string" />
+    <wsdl:part name="endTime" type="s:string" />
+    <wsdl:part name="matolId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMachineDetailHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCurrentInfoHttpPostIn" />
+  <wsdl:message name="GetAllCurrentInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoHttpPostIn">
+    <wsdl:part name="machineName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDetailInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetAllMachineHttpPostIn" />
+  <wsdl:message name="GetAllMachineHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:portType name="MDCServiceSoap">
+    <wsdl:operation name="ImportGEHZShiftData">
+      <wsdl:input message="tns:ImportGEHZShiftDataSoapIn" />
+      <wsdl:output message="tns:ImportGEHZShiftDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <wsdl:input message="tns:GetRunDuringSoapIn" />
+      <wsdl:output message="tns:GetRunDuringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <wsdl:input message="tns:GetRunEfficiencySoapIn" />
+      <wsdl:output message="tns:GetRunEfficiencySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <wsdl:input message="tns:GetMachineUseRateSoapIn" />
+      <wsdl:output message="tns:GetMachineUseRateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <wsdl:input message="tns:GetMachineUseRateYCGXSoapIn" />
+      <wsdl:output message="tns:GetMachineUseRateYCGXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <wsdl:input message="tns:GetMachineStatusGroupSoapIn" />
+      <wsdl:output message="tns:GetMachineStatusGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <wsdl:input message="tns:GetMachineBootStrapRateSoapIn" />
+      <wsdl:output message="tns:GetMachineBootStrapRateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <wsdl:input message="tns:GetStartingUpRateSoapIn" />
+      <wsdl:output message="tns:GetStartingUpRateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <wsdl:input message="tns:GetMachineDetailSoapIn" />
+      <wsdl:output message="tns:GetMachineDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <wsdl:input message="tns:GetAllCurrentInfoSoapIn" />
+      <wsdl:output message="tns:GetAllCurrentInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <wsdl:input message="tns:GetCurrentDetailInfoSoapIn" />
+      <wsdl:output message="tns:GetCurrentDetailInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <wsdl:input message="tns:GetAllMachineSoapIn" />
+      <wsdl:output message="tns:GetAllMachineSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MDCServiceHttpGet">
+    <wsdl:operation name="ImportGEHZShiftData">
+      <wsdl:input message="tns:ImportGEHZShiftDataHttpGetIn" />
+      <wsdl:output message="tns:ImportGEHZShiftDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <wsdl:input message="tns:GetRunDuringHttpGetIn" />
+      <wsdl:output message="tns:GetRunDuringHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <wsdl:input message="tns:GetRunEfficiencyHttpGetIn" />
+      <wsdl:output message="tns:GetRunEfficiencyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <wsdl:input message="tns:GetMachineUseRateHttpGetIn" />
+      <wsdl:output message="tns:GetMachineUseRateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <wsdl:input message="tns:GetMachineUseRateYCGXHttpGetIn" />
+      <wsdl:output message="tns:GetMachineUseRateYCGXHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <wsdl:input message="tns:GetMachineStatusGroupHttpGetIn" />
+      <wsdl:output message="tns:GetMachineStatusGroupHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <wsdl:input message="tns:GetMachineBootStrapRateHttpGetIn" />
+      <wsdl:output message="tns:GetMachineBootStrapRateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <wsdl:input message="tns:GetStartingUpRateHttpGetIn" />
+      <wsdl:output message="tns:GetStartingUpRateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <wsdl:input message="tns:GetMachineDetailHttpGetIn" />
+      <wsdl:output message="tns:GetMachineDetailHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <wsdl:input message="tns:GetAllCurrentInfoHttpGetIn" />
+      <wsdl:output message="tns:GetAllCurrentInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <wsdl:input message="tns:GetCurrentDetailInfoHttpGetIn" />
+      <wsdl:output message="tns:GetCurrentDetailInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <wsdl:input message="tns:GetAllMachineHttpGetIn" />
+      <wsdl:output message="tns:GetAllMachineHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MDCServiceHttpPost">
+    <wsdl:operation name="ImportGEHZShiftData">
+      <wsdl:input message="tns:ImportGEHZShiftDataHttpPostIn" />
+      <wsdl:output message="tns:ImportGEHZShiftDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <wsdl:input message="tns:GetRunDuringHttpPostIn" />
+      <wsdl:output message="tns:GetRunDuringHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <wsdl:input message="tns:GetRunEfficiencyHttpPostIn" />
+      <wsdl:output message="tns:GetRunEfficiencyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <wsdl:input message="tns:GetMachineUseRateHttpPostIn" />
+      <wsdl:output message="tns:GetMachineUseRateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <wsdl:input message="tns:GetMachineUseRateYCGXHttpPostIn" />
+      <wsdl:output message="tns:GetMachineUseRateYCGXHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <wsdl:input message="tns:GetMachineStatusGroupHttpPostIn" />
+      <wsdl:output message="tns:GetMachineStatusGroupHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <wsdl:input message="tns:GetMachineBootStrapRateHttpPostIn" />
+      <wsdl:output message="tns:GetMachineBootStrapRateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <wsdl:input message="tns:GetStartingUpRateHttpPostIn" />
+      <wsdl:output message="tns:GetStartingUpRateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <wsdl:input message="tns:GetMachineDetailHttpPostIn" />
+      <wsdl:output message="tns:GetMachineDetailHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <wsdl:input message="tns:GetAllCurrentInfoHttpPostIn" />
+      <wsdl:output message="tns:GetAllCurrentInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <wsdl:input message="tns:GetCurrentDetailInfoHttpPostIn" />
+      <wsdl:output message="tns:GetCurrentDetailInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <wsdl:input message="tns:GetAllMachineHttpPostIn" />
+      <wsdl:output message="tns:GetAllMachineHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MDCServiceSoap" type="tns:MDCServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ImportGEHZShiftData">
+      <soap:operation soapAction="http://tempuri.org/ImportGEHZShiftData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <soap:operation soapAction="http://tempuri.org/GetRunDuring" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <soap:operation soapAction="http://tempuri.org/GetRunEfficiency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <soap:operation soapAction="http://tempuri.org/GetMachineUseRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <soap:operation soapAction="http://tempuri.org/GetMachineUseRateYCGX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <soap:operation soapAction="http://tempuri.org/GetMachineStatusGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <soap:operation soapAction="http://tempuri.org/GetMachineBootStrapRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <soap:operation soapAction="http://tempuri.org/GetStartingUpRate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <soap:operation soapAction="http://tempuri.org/GetMachineDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <soap:operation soapAction="http://tempuri.org/GetAllCurrentInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <soap:operation soapAction="http://tempuri.org/GetCurrentDetailInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <soap:operation soapAction="http://tempuri.org/GetAllMachine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDCServiceSoap12" type="tns:MDCServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ImportGEHZShiftData">
+      <soap12:operation soapAction="http://tempuri.org/ImportGEHZShiftData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <soap12:operation soapAction="http://tempuri.org/GetRunDuring" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <soap12:operation soapAction="http://tempuri.org/GetRunEfficiency" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <soap12:operation soapAction="http://tempuri.org/GetMachineUseRate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <soap12:operation soapAction="http://tempuri.org/GetMachineUseRateYCGX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <soap12:operation soapAction="http://tempuri.org/GetMachineStatusGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <soap12:operation soapAction="http://tempuri.org/GetMachineBootStrapRate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <soap12:operation soapAction="http://tempuri.org/GetStartingUpRate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetMachineDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetAllCurrentInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetCurrentDetailInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <soap12:operation soapAction="http://tempuri.org/GetAllMachine" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDCServiceHttpGet" type="tns:MDCServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ImportGEHZShiftData">
+      <http:operation location="/ImportGEHZShiftData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <http:operation location="/GetRunDuring" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <http:operation location="/GetRunEfficiency" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <http:operation location="/GetMachineUseRate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <http:operation location="/GetMachineUseRateYCGX" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <http:operation location="/GetMachineStatusGroup" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <http:operation location="/GetMachineBootStrapRate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <http:operation location="/GetStartingUpRate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <http:operation location="/GetMachineDetail" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <http:operation location="/GetAllCurrentInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <http:operation location="/GetCurrentDetailInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <http:operation location="/GetAllMachine" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDCServiceHttpPost" type="tns:MDCServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ImportGEHZShiftData">
+      <http:operation location="/ImportGEHZShiftData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunDuring">
+      <http:operation location="/GetRunDuring" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRunEfficiency">
+      <http:operation location="/GetRunEfficiency" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRate">
+      <http:operation location="/GetMachineUseRate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineUseRateYCGX">
+      <http:operation location="/GetMachineUseRateYCGX" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatusGroup">
+      <http:operation location="/GetMachineStatusGroup" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineBootStrapRate">
+      <http:operation location="/GetMachineBootStrapRate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStartingUpRate">
+      <http:operation location="/GetStartingUpRate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetail">
+      <http:operation location="/GetMachineDetail" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCurrentInfo">
+      <http:operation location="/GetAllCurrentInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDetailInfo">
+      <http:operation location="/GetCurrentDetailInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllMachine">
+      <http:operation location="/GetAllMachine" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MDCService">
+    <wsdl:port name="MDCServiceSoap" binding="tns:MDCServiceSoap">
+      <soap:address location="http://10.1.50.82/dss/MDCService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDCServiceSoap12" binding="tns:MDCServiceSoap12">
+      <soap12:address location="http://10.1.50.82/dss/MDCService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDCServiceHttpGet" binding="tns:MDCServiceHttpGet">
+      <http:address location="http://10.1.50.82/dss/MDCService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDCServiceHttpPost" binding="tns:MDCServiceHttpPost">
+      <http:address location="http://10.1.50.82/dss/MDCService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

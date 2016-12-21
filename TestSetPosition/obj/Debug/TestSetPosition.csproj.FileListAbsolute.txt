@@ -1,0 +1,68 @@
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe.config
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Form1.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Properties.Resources.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe.config
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Form1.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Properties.Resources.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csproj.GenerateResource.Cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe.config
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\TestSetPosition.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\IPhysics.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Form1.resources
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.Properties.Resources.resources
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.csproj.GenerateResource.Cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.exe
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Debug\TestSetPosition.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.BLL.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.Model.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.DAL.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\FactoryHubInterface.DBUtility.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.BLL.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.Model.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\WZYB.DAL.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Debug\FactoryHubInterface.DBUtility.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe.config
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\TestSetPosition.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.BLL.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.Model.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.DAL.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\FactoryHubInterface.DBUtility.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.BLL.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.Model.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\WZYB.DAL.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\bin\Debug\FactoryHubInterface.DBUtility.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.Form1.resources
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.Properties.Resources.resources
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.csproj.GenerateResource.Cache

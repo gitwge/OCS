@@ -1,0 +1,26 @@
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.exe.config
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.Form1.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.Properties.Resources.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.exe.config
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.exe
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\TestSetPosition.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysics.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\bin\Release\IPhysics.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.Form1.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.Properties.Resources.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\TestSetPosition\obj\Release\TestSetPosition.csproj.GenerateResource.Cache

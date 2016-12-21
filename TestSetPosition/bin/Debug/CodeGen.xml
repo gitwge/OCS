@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeGen>
+	<Header date="周三 12月 21 2016" time="10:12:34" organization="machineering" application="industrialPhysics" build="eba55d6" version="2.0.6111.master" architecture="Windows 64 Bit"/>
+	<Manufacturer name="Beckhoff TwinCAT 2"/>
+	<Interface type="ComTCP" name="LIGHT">
+		<Server host="127.0.0.1" hostHex="7f000001" port="6000" portHex="1770" interval="10" protocol="TCP" packedMode="0" hostIP1="127" hostIP2="0" hostIP3="0" hostIP4="1"/>
+		<Inputs Count="0" SizeInBytes="0" SizeInBytes_S7="0" SizeInBytes_Codesys="0" SizeInBytes_PackedMessage="20"/>
+		<Outputs Count="10" SizeInBytes="40" SizeInBytes_S7="40" SizeInBytes_Codesys="40" SizeInBytes_PackedMessage="60">
+			<Connection Name="car101_input_Path" From="Physics://physics/XuanGua/car/car1?input_Path" Type="INT32" S7Type="DINT" CodesysType="DINT" ByteIndex="0" ByteIndex_S7="0" ByteIndex_Codesys="0" PackedByteIndex="20" PackedBitIndex="0" HardwareAddress="AD0"/>
+			<Connection Name="car101_input_pos" From="Physics://physics/XuanGua/car/car1?input_pos" Type="FLOAT32" S7Type="REAL" CodesysType="REAL" ByteIndex="4" ByteIndex_S7="4" ByteIndex_Codesys="4" PackedByteIndex="24" PackedBitIndex="0" HardwareAddress="AD4"/>
+			<Connection Name="car201_input_Path" From="Physics://physics/XuanGua/car/car2?input_Path" Type="INT32" S7Type="DINT" CodesysType="DINT" ByteIndex="8" ByteIndex_S7="8" ByteIndex_Codesys="8" PackedByteIndex="28" PackedBitIndex="0" HardwareAddress="AD8"/>
+			<Connection Name="car201_input_pos" From="Physics://physics/XuanGua/car/car2?input_pos" Type="FLOAT32" S7Type="REAL" CodesysType="REAL" ByteIndex="12" ByteIndex_S7="12" ByteIndex_Codesys="12" PackedByteIndex="32" PackedBitIndex="0" HardwareAddress="AD12"/>
+			<Connection Name="car301_input_Path" From="Physics://physics/XuanGua/car/car3?input_Path" Type="INT32" S7Type="DINT" CodesysType="DINT" ByteIndex="16" ByteIndex_S7="16" ByteIndex_Codesys="16" PackedByteIndex="36" PackedBitIndex="0" HardwareAddress="AD16"/>
+			<Connection Name="car301_input_pos" From="Physics://physics/XuanGua/car/car3?input_pos" Type="FLOAT32" S7Type="REAL" CodesysType="REAL" ByteIndex="20" ByteIndex_S7="20" ByteIndex_Codesys="20" PackedByteIndex="40" PackedBitIndex="0" HardwareAddress="AD20"/>
+			<Connection Name="car401_input_Path" From="Physics://physics/XuanGua/car/car4?input_Path" Type="INT32" S7Type="DINT" CodesysType="DINT" ByteIndex="24" ByteIndex_S7="24" ByteIndex_Codesys="24" PackedByteIndex="44" PackedBitIndex="0" HardwareAddress="AD24"/>
+			<Connection Name="car401_input_pos" From="Physics://physics/XuanGua/car/car4?input_pos" Type="FLOAT32" S7Type="REAL" CodesysType="REAL" ByteIndex="28" ByteIndex_S7="28" ByteIndex_Codesys="28" PackedByteIndex="48" PackedBitIndex="0" HardwareAddress="AD28"/>
+			<Connection Name="car501_input_Path" From="Physics://physics/XuanGua/car/car5?input_Path" Type="INT32" S7Type="DINT" CodesysType="DINT" ByteIndex="32" ByteIndex_S7="32" ByteIndex_Codesys="32" PackedByteIndex="52" PackedBitIndex="0" HardwareAddress="AD32"/>
+			<Connection Name="car501_input_pos" From="Physics://physics/XuanGua/car/car5?input_pos" Type="FLOAT32" S7Type="REAL" CodesysType="REAL" ByteIndex="36" ByteIndex_S7="36" ByteIndex_Codesys="36" PackedByteIndex="56" PackedBitIndex="0" HardwareAddress="AD36"/>
+		</Outputs>
+	</Interface>
+	<Functions/>
+	<Tasks>
+		<Task Name="PLC" CycleTime="10" Priority="0"/>
+	</Tasks>
+	<Mechatronics>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car101_input_Path]]></SymbolName>
+			<VarComment><![CDATA[(car1) (ModelScript) - input_Path]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car1?input_Path]]></VarPath>
+			<VarName><![CDATA[input_Path]]></VarName>
+			<Type><![CDATA[INT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car1]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car1]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car101_input_pos]]></SymbolName>
+			<VarComment><![CDATA[(car1) (ModelScript) - input_pos]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car1?input_pos]]></VarPath>
+			<VarName><![CDATA[input_pos]]></VarName>
+			<Type><![CDATA[FLOAT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car1]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car1]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car201_input_Path]]></SymbolName>
+			<VarComment><![CDATA[(car2) (ModelScript) - input_Path]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car2?input_Path]]></VarPath>
+			<VarName><![CDATA[input_Path]]></VarName>
+			<Type><![CDATA[INT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car2]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car2]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car201_input_pos]]></SymbolName>
+			<VarComment><![CDATA[(car2) (ModelScript) - input_pos]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car2?input_pos]]></VarPath>
+			<VarName><![CDATA[input_pos]]></VarName>
+			<Type><![CDATA[FLOAT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car2]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car2]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car301_input_Path]]></SymbolName>
+			<VarComment><![CDATA[(car3) (ModelScript) - input_Path]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car3?input_Path]]></VarPath>
+			<VarName><![CDATA[input_Path]]></VarName>
+			<Type><![CDATA[INT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car3]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car3]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car301_input_pos]]></SymbolName>
+			<VarComment><![CDATA[(car3) (ModelScript) - input_pos]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car3?input_pos]]></VarPath>
+			<VarName><![CDATA[input_pos]]></VarName>
+			<Type><![CDATA[FLOAT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car3]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car3]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car401_input_Path]]></SymbolName>
+			<VarComment><![CDATA[(car4) (ModelScript) - input_Path]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car4?input_Path]]></VarPath>
+			<VarName><![CDATA[input_Path]]></VarName>
+			<Type><![CDATA[INT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car4]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car4]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car401_input_pos]]></SymbolName>
+			<VarComment><![CDATA[(car4) (ModelScript) - input_pos]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car4?input_pos]]></VarPath>
+			<VarName><![CDATA[input_pos]]></VarName>
+			<Type><![CDATA[FLOAT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car4]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car4]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car501_input_Path]]></SymbolName>
+			<VarComment><![CDATA[(car5) (ModelScript) - input_Path]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car5?input_Path]]></VarPath>
+			<VarName><![CDATA[input_Path]]></VarName>
+			<Type><![CDATA[INT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car5]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car5]]></ItemPath>
+		</Entity>
+		<Entity>
+			<Access><![CDATA[WRITE]]></Access>
+			<SymbolName><![CDATA[car501_input_pos]]></SymbolName>
+			<VarComment><![CDATA[(car5) (ModelScript) - input_pos]]></VarComment>
+			<VarPath><![CDATA[Physics://physics/XuanGua/car/car5?input_pos]]></VarPath>
+			<VarName><![CDATA[input_pos]]></VarName>
+			<Type><![CDATA[FLOAT32]]></Type>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Function><![CDATA[ModelScript]]></Function>
+			<ComponentName><![CDATA[car5]]></ComponentName>
+			<ItemPath><![CDATA[Physics://physics/XuanGua/car/car5]]></ItemPath>
+		</Entity>
+	</Mechatronics>
+</CodeGen>

@@ -1,0 +1,33 @@
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\obj\Release\IPhysics.ExternalAppDock.resources
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\C_sharp_Robot_compact\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Release\IPhysics.ExternalAppDock.resources
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\obj\Release\IPhysics.ExternalAppDock.resources
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path-back\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysics.ExternalAppDock.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\bin\Release\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysics.ExternalAppDock.resources
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk - 副本\VS_cgk\CGK\IPhysicsSocketInterface\obj\Release\IPhysicsSocketInterface.pdb

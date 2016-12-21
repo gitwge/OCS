@@ -1,0 +1,65 @@
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+C:\Program Files\machineering\industrialPhysics(x64)\samples\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+C:\SVN\xts\Projekte\01_km\C#API\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+C:\Users\Kilian\Documents\Mi5\ownDev\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+C:\Users\ITQ\Documents\machineering\Daten\erstellte How-To´s\SocketIntegration\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+D:\IndustrialPhysics\test\AGV_Path\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\CGK\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+C:\Users\hongpeng\Desktop\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\bin\Debug\IPhysicsSocketInterface.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics.ExternalAppDock.resources
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\obj\Debug\IPhysics_SocketInterface.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysicsSocketInterface\obj\Debug\IPhysicsSocketInterface.pdb

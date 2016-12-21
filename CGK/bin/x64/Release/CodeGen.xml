@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeGen>
+	<Header date="周三 8月 31 2016" time="11:50:28" organization="machineering" application="industrialPhysics" build="a8c3dd8" version="2.0.5817.develop" architecture="Windows 64 Bit"/>
+	<Manufacturer name="Beckhoff TwinCAT 2"/>
+	<Interface type="ComTCP" name="CGK">
+		<Server host="127.0.0.1" hostHex="7f000001" port="6001" portHex="1771" interval="10" protocol="TCP" packedMode="0" hostIP1="127" hostIP2="0" hostIP3="0" hostIP4="1"/>
+		<Inputs Count="1" SizeInBytes="4" SizeInBytes_S7="4" SizeInBytes_Codesys="4" SizeInBytes_PackedMessage="24">
+			<Connection Name="QZJ01_DDJ_state" From="Physics://physics/CGK/DDJ_1/QZJ?DDJ_state" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="0" ByteIndex_S7="0" ByteIndex_Codesys="0" PackedByteIndex="20" PackedBitIndex="0" HardwareAddress="ED0"/>
+		</Inputs>
+		<Outputs Count="21" SizeInBytes="73" SizeInBytes_S7="84" SizeInBytes_Codesys="84" SizeInBytes_PackedMessage="93">
+			<Connection Name="SSJ01_TP_NUM" From="Physics://physics/CGK/RK_left/SSJ?TP_NUM" Type="UINT16" S7Type="WORD" CodesysType="UINT" ByteIndex="0" ByteIndex_S7="0" ByteIndex_Codesys="0" PackedByteIndex="20" PackedBitIndex="0" HardwareAddress="AW0"/>
+			<Connection Name="Car01_input_GOTO_state" From="Physics://physics/CGK/RK_left/Car?input_GOTO_state" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="2" ByteIndex_S7="4" ByteIndex_Codesys="4" PackedByteIndex="22" PackedBitIndex="0" HardwareAddress="AD4"/>
+			<Connection Name="DDJ_101_IN_BEGIN" From="Physics://physics/CGK/DDJ_1?IN_BEGIN" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="6" ByteIndex_S7="8" ByteIndex_Codesys="8" PackedByteIndex="26" PackedBitIndex="0" HardwareAddress="AD8"/>
+			<Connection Name="DDJ_101_IN_TGT_x" From="Physics://physics/CGK/DDJ_1?IN_TGT_x" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="10" ByteIndex_S7="12" ByteIndex_Codesys="12" PackedByteIndex="30" PackedBitIndex="0" HardwareAddress="AD12"/>
+			<Connection Name="DDJ_101_IN_TGT_Y" From="Physics://physics/CGK/DDJ_1?IN_TGT_Y" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="14" ByteIndex_S7="16" ByteIndex_Codesys="16" PackedByteIndex="34" PackedBitIndex="0" HardwareAddress="AD16"/>
+			<Connection Name="DDJ_101_IN_TGT_HJ" From="Physics://physics/CGK/DDJ_1?IN_TGT_HJ" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="18" ByteIndex_S7="20" ByteIndex_Codesys="20" PackedByteIndex="38" PackedBitIndex="0" HardwareAddress="AD20"/>
+			<Connection Name="DDJ_101_IN_INOROUT" From="Physics://physics/CGK/DDJ_1?IN_INOROUT" Type="BOOL" S7Type="BOOL" CodesysType="BOOL" ByteIndex="22" ByteIndex_S7="24" ByteIndex_Codesys="24" PackedByteIndex="42" PackedBitIndex="0" HardwareAddress="A24.0"/>
+			<Connection Name="DDJ_101_IN_OUT_num" From="Physics://physics/CGK/DDJ_1?IN_OUT_num" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="23" ByteIndex_S7="28" ByteIndex_Codesys="28" PackedByteIndex="43" PackedBitIndex="0" HardwareAddress="AD28"/>
+			<Connection Name="DDJ_201_IN_BEGIN" From="Physics://physics/CGK/DDJ_2?IN_BEGIN" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="27" ByteIndex_S7="32" ByteIndex_Codesys="32" PackedByteIndex="47" PackedBitIndex="0" HardwareAddress="AD32"/>
+			<Connection Name="DDJ_201_IN_TGT_x" From="Physics://physics/CGK/DDJ_2?IN_TGT_x" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="31" ByteIndex_S7="36" ByteIndex_Codesys="36" PackedByteIndex="51" PackedBitIndex="0" HardwareAddress="AD36"/>
+			<Connection Name="DDJ_201_IN_TGT_Y" From="Physics://physics/CGK/DDJ_2?IN_TGT_Y" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="35" ByteIndex_S7="40" ByteIndex_Codesys="40" PackedByteIndex="55" PackedBitIndex="0" HardwareAddress="AD40"/>
+			<Connection Name="DDJ_201_IN_TGT_HJ" From="Physics://physics/CGK/DDJ_2?IN_TGT_HJ" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="39" ByteIndex_S7="44" ByteIndex_Codesys="44" PackedByteIndex="59" PackedBitIndex="0" HardwareAddress="AD44"/>
+			<Connection Name="DDJ_201_IN_INOROUT" From="Physics://physics/CGK/DDJ_2?IN_INOROUT" Type="BOOL" S7Type="BOOL" CodesysType="BOOL" ByteIndex="43" ByteIndex_S7="48" ByteIndex_Codesys="48" PackedByteIndex="63" PackedBitIndex="0" HardwareAddress="A48.0"/>
+			<Connection Name="DDJ_201_IN_OUT_num" From="Physics://physics/CGK/DDJ_2?IN_OUT_num" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="44" ByteIndex_S7="52" ByteIndex_Codesys="52" PackedByteIndex="64" PackedBitIndex="0" HardwareAddress="AD52"/>
+			<Connection Name="DDJ_301_IN_BEGIN" From="Physics://physics/CGK/DDJ_3?IN_BEGIN" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="48" ByteIndex_S7="56" ByteIndex_Codesys="56" PackedByteIndex="68" PackedBitIndex="0" HardwareAddress="AD56"/>
+			<Connection Name="DDJ_301_IN_TGT_x" From="Physics://physics/CGK/DDJ_3?IN_TGT_x" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="52" ByteIndex_S7="60" ByteIndex_Codesys="60" PackedByteIndex="72" PackedBitIndex="0" HardwareAddress="AD60"/>
+			<Connection Name="DDJ_301_IN_TGT_Y" From="Physics://physics/CGK/DDJ_3?IN_TGT_Y" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="56" ByteIndex_S7="64" ByteIndex_Codesys="64" PackedByteIndex="76" PackedBitIndex="0" HardwareAddress="AD64"/>
+			<Connection Name="DDJ_301_IN_TGT_HJ" From="Physics://physics/CGK/DDJ_3?IN_TGT_HJ" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="60" ByteIndex_S7="68" ByteIndex_Codesys="68" PackedByteIndex="80" PackedBitIndex="0" HardwareAddress="AD68"/>
+			<Connection Name="DDJ_301_IN_INOROUT" From="Physics://physics/CGK/DDJ_3?IN_INOROUT" Type="BOOL" S7Type="BOOL" CodesysType="BOOL" ByteIndex="64" ByteIndex_S7="72" ByteIndex_Codesys="72" PackedByteIndex="84" PackedBitIndex="0" HardwareAddress="A72.0"/>
+			<Connection Name="DDJ_301_IN_OUT_num" From="Physics://physics/CGK/DDJ_3?IN_OUT_num" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="65" ByteIndex_S7="76" ByteIndex_Codesys="76" PackedByteIndex="85" PackedBitIndex="0" HardwareAddress="AD76"/>
+			<Connection Name="CAR01_OUT_NUM" From="Physics://physics/CGK/CK_right/CAR?OUT_NUM" Type="UINT32" S7Type="DWORD" CodesysType="UDINT" ByteIndex="69" ByteIndex_S7="80" ByteIndex_Codesys="80" PackedByteIndex="89" PackedBitIndex="0" HardwareAddress="AD80"/>
+		</Outputs>
+	</Interface>
+	<Functions/>
+	<Tasks>
+		<Task Name="PLC" CycleTime="10" Priority="0"/>
+	</Tasks>
+	<Mechatronics>
+		<Entity>
+			<VarName><![CDATA[DDJ_state]]></VarName>
+			<ComponentName><![CDATA[QZJ]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1/QZJ?DDJ_state]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[READ]]></Direction>
+			<Access><![CDATA[READ]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1/QZJ]]></ItemPath>
+			<SymbolName><![CDATA[QZJ01_DDJ_state]]></SymbolName>
+			<VarComment><![CDATA[(QZJ) (ModelScript) - DDJ_state]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[TP_NUM]]></VarName>
+			<ComponentName><![CDATA[SSJ]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/RK_left/SSJ?TP_NUM]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT16]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/RK_left/SSJ]]></ItemPath>
+			<SymbolName><![CDATA[SSJ01_TP_NUM]]></SymbolName>
+			<VarComment><![CDATA[(SSJ) (ModelScript) - TP_NUM]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[input_GOTO_state]]></VarName>
+			<ComponentName><![CDATA[Car]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/RK_left/Car?input_GOTO_state]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/RK_left/Car]]></ItemPath>
+			<SymbolName><![CDATA[Car01_input_GOTO_state]]></SymbolName>
+			<VarComment><![CDATA[(Car) (ModelScript) - input_GOTO_state]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_BEGIN]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_BEGIN]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_BEGIN]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_BEGIN]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_x]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_TGT_x]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_TGT_x]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_TGT_x]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_Y]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_TGT_Y]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_TGT_Y]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_TGT_Y]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_HJ]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_TGT_HJ]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_TGT_HJ]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_TGT_HJ]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_INOROUT]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_INOROUT]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[BOOL]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_INOROUT]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_INOROUT]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_OUT_num]]></VarName>
+			<ComponentName><![CDATA[DDJ_1]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_1?IN_OUT_num]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_1]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_101_IN_OUT_num]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_1) (ModelScript) - IN_OUT_num]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_BEGIN]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_BEGIN]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_BEGIN]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_BEGIN]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_x]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_TGT_x]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_TGT_x]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_TGT_x]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_Y]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_TGT_Y]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_TGT_Y]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_TGT_Y]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_HJ]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_TGT_HJ]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_TGT_HJ]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_TGT_HJ]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_INOROUT]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_INOROUT]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[BOOL]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_INOROUT]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_INOROUT]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_OUT_num]]></VarName>
+			<ComponentName><![CDATA[DDJ_2]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_2?IN_OUT_num]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_2]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_201_IN_OUT_num]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_2) (ModelScript) - IN_OUT_num]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_BEGIN]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_BEGIN]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_BEGIN]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_BEGIN]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_x]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_TGT_x]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_TGT_x]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_TGT_x]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_Y]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_TGT_Y]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_TGT_Y]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_TGT_Y]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_TGT_HJ]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_TGT_HJ]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_TGT_HJ]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_TGT_HJ]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_INOROUT]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_INOROUT]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[BOOL]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_INOROUT]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_INOROUT]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[IN_OUT_num]]></VarName>
+			<ComponentName><![CDATA[DDJ_3]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/DDJ_3?IN_OUT_num]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/DDJ_3]]></ItemPath>
+			<SymbolName><![CDATA[DDJ_301_IN_OUT_num]]></SymbolName>
+			<VarComment><![CDATA[(DDJ_3) (ModelScript) - IN_OUT_num]]></VarComment>
+		</Entity>
+		<Entity>
+			<VarName><![CDATA[OUT_NUM]]></VarName>
+			<ComponentName><![CDATA[CAR]]></ComponentName>
+			<VarPath><![CDATA[Physics://physics/CGK/CK_right/CAR?OUT_NUM]]></VarPath>
+			<Function><![CDATA[ModelScript]]></Function>
+			<Direction><![CDATA[WRITE]]></Direction>
+			<Access><![CDATA[WRITE]]></Access>
+			<Type><![CDATA[UINT32]]></Type>
+			<ItemPath><![CDATA[Physics://physics/CGK/CK_right/CAR]]></ItemPath>
+			<SymbolName><![CDATA[CAR01_OUT_NUM]]></SymbolName>
+			<VarComment><![CDATA[(CAR) (ModelScript) - OUT_NUM]]></VarComment>
+		</Entity>
+	</Mechatronics>
+</CodeGen>

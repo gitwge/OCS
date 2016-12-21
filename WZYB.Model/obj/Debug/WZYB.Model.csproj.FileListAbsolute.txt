@@ -1,0 +1,10 @@
+D:\SimPlan\VS_cgk\VS_cgk\CGK\WZYB.Model\bin\Debug\WZYB.Model.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\WZYB.Model\bin\Debug\WZYB.Model.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\WZYB.Model\obj\Debug\WZYB.Model.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\WZYB.Model\obj\Debug\WZYB.Model.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\WZYB.Model\obj\Debug\WZYB.Model.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\WZYB.Model\bin\Debug\WZYB.Model.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\WZYB.Model\bin\Debug\WZYB.Model.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\WZYB.Model\obj\Debug\WZYB.Model.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\WZYB.Model\obj\Debug\WZYB.Model.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\WZYB.Model\obj\Debug\WZYB.Model.pdb

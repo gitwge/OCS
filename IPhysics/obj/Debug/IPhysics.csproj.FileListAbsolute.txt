@@ -1,0 +1,15 @@
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysics\bin\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysics\bin\Debug\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysics\bin\Debug\IPhysics.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysics\bin\Debug\IPhysics.pdb
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.csprojResolveAssemblyReference.cache
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.dll
+D:\SimPlan\VS_cgk\VS_cgk\CGK\IPhysics\obj\Debug\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysics\bin\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysics\bin\Debug\IPhysics.pdb
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysics\obj\Debug\IPhysics.csprojResolveAssemblyReference.cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysics\obj\Debug\IPhysics.dll
+D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\IPhysics\obj\Debug\IPhysics.pdb
