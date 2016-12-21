@@ -66,3 +66,6 @@ D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.
 D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.Form1.resources
 D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.Properties.Resources.resources
 D:\WORK\SIMPLAN\c#WORK\20161221XG\CGK\TestSetPosition\obj\Debug\TestSetPosition.csproj.GenerateResource.Cache
+D:\WORK\SIMPLAN\c#WORK\20161221XG\OCS\TestSetPosition\bin\Debug\TestSetPosition.exe.config
+D:\WORK\SIMPLAN\c#WORK\20161221XG\OCS\TestSetPosition\obj\Debug\TestSetPosition.exe
+D:\WORK\SIMPLAN\c#WORK\20161221XG\OCS\TestSetPosition\obj\Debug\TestSetPosition.pdb
